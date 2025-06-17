@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dizzy's Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    
+    <div class="container">
+        <h1>Hello I'm Dizzy</h1>
+        
+        <div class="animated-text">
+            <span>I am ethical hacker</span>
+            <span>I am programmer</span>
+            <span>I am network administrator</span>
+        </div>
+        
+        <div class="buttons">
+            <button class="btn btn-primary" id="discordBtn">
+                <i class="fab fa-discord"></i> My Discord
+            </button>
+            <button class="btn btn-secondary" id="projectsBtn">
+                <i class="fas fa-code"></i> My Projects
+            </button>
+        </div>
+        
+        <div class="social-links">
+            <a href="#" class="social-icon" id="discordSocial">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="https://github.com/d1zz1" class="social-icon" title="GitHub" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+    
+    <div id="projects-section" style="display: none;">
+        <h2>My Projects</h2>
+        
+        <div class="project">
+            <h3>Discord Nuke Bot</h3>
+            <img src="https://user-images.githubusercontent.com/59532064/118379656-d28b3f00-b5d3-11eb-8e79-4dde120fa6f4.PNG" alt="Discord Nuke Bot" class="project-image">
+            <p>A powerful Discord bot with advanced server management capabilities:</p>
+            <ul>
+                <li>Mass message deletion and channel management</li>
+                <li>Role assignment and permission controls</li>
+                <li>Automated moderation and anti-raid features</li>
+                <li>Custom commands and response system</li>
+            </ul>
+            <div>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Discord.js</span>
+                <span class="tech-badge">MongoDB</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h3>Ethical Hacking Toolkit</h3>
+            <img src="https://miro.medium.com/v2/resize:fit:750/1*-v5Vot9EkNspjdXsC7R-HQ.jpeg" alt="Ethical Hacking Toolkit" class="project-image">
+            <p>Comprehensive security testing framework with multiple modules:</p>
+            <ul>
+                <li>Network vulnerability scanning</li>
+                <li>Password cracking and brute-force tools</li>
+                <li>Web application security testing</li>
+                <li>Automated exploit framework</li>
+            </ul>
+            <div>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Bash</span>
+                <span class="tech-badge">Metasploit</span>
+                <span class="tech-badge">Wireshark</span>
+            </div>
+        </div>
+        
+        <div class="project">
+            <h3>Network Monitoring Dashboard</h3>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA_0y3UtH94LL-WsJ-u48DZLHN5duOjQnw_Q&s" alt="Network Monitoring" class="project-image">
+            <p>Real-time network monitoring and analysis system:</p>
+            <ul>
+                <li>Bandwidth usage tracking and visualization</li>
+                <li>Device status monitoring and alerts</li>
+                <li>Traffic analysis and packet inspection</li>
+                <li>Automated reporting and logging</li>
+            </ul>
+            <div>
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">React</span>
+                <span class="tech-badge">SNMP</span>
+                <span class="tech-badge">Grafana</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="notification" id="notification">
+        <i class="fas fa-check-circle"></i>
+        <span>Discord username copied to clipboard!</span>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
